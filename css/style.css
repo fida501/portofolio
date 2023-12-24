@@ -146,6 +146,11 @@ h4 {
     justify-content: space-around;
 }
 
+.main img {
+    width: 400px;
+    height: 500px;
+}
+
 .about-text h2 {
     color: #FBFBFB;
     font-size: 75px;
@@ -401,4 +406,21 @@ footer p:nth-child(2) {
     padding: 9px 22px;
     border-radius: 30px;
     transition: .4s;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    .main img {
+        width: 300px;
+        height: 500px;
+    }
+
+    .about {
+        width: 100%;
+        padding: 100px 0px;
+        background-color: #191919;
+    }
 }
